@@ -1,0 +1,1 @@
+Home directory is specific to the user, while Root directory is the top-most directory in the file system hierarchy.
