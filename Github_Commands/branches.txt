@@ -1,6 +1,3 @@
 Git Pull is a command used to update the local version of a repository from a remote repository. 
 It is used to fetch and download content from a remote repository and immediately update the local repository to match that content
-1. Git branch <branch name> .                                     
-2. Git checkout  <branch name>.
-Git branch is a command used to create a new branch.
-Git checkout is a command used to switch to that branch .
+                                  
