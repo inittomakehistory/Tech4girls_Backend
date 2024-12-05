@@ -1,0 +1,4 @@
+1. Git branch <branch name> .                                     
+2. Git checkout  <branch name>.
+Git branch is a command used to create a new branch.
+Git checkout is a command used to switch to that branch .
