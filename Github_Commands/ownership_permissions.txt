@@ -1,0 +1,15 @@
+file ownership
+1. user: the user who created the file.
+2. group : a group of users with shared permission.
+3. others : all other users.
+
+
+file permission
+1. read(r): view file contents.
+2. write(w): create or delete files.
+3. execute(x): for running files as a program.
+
+Directory permissions
+1. read(r): list Directory
+2.write(w): create or delecte files
+3. execute(x): access Directory
