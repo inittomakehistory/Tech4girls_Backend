@@ -1,0 +1,6 @@
+Bash script is a file containing a sequence of commands that are executed by the bash program line by line.
+
+How to create a bash script  
+1.Create a new plain test (myscript.sh)
+2.Specify the interpreter (#!/bin/bash)
+3.Implement commands.
