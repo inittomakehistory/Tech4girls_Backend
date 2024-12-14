@@ -1,0 +1,11 @@
+-     means it's a regular file.
+rw-   means the owner can read,write but not execute the file permission.
+r--   means members of the group can read but not write or execute the file permission. 
+r--   means other users can read but not write or execute the file.
+1     means the number of links.
+userhacsa  means the file owner.
+userhacsa  means the file group .
+70    means the file size.
+Oct 14 means date modified.
+10:00  means time modified.
+script.sh means file name.
