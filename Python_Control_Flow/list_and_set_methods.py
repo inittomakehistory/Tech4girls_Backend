@@ -25,6 +25,11 @@ lists = [1, 2, 3, 4, 5]
 lists.reverse()
 print(lists)
 
+# extend
+lists = [1, 2, 3, 4, 5]
+lists.extend([6,7])
+print(lists)
+
 # add()
 lists = [1, 2, 3, 4, 5]
 lists.insert(4,"four")
