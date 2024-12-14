@@ -1,0 +1,81 @@
+# python 
+# int
+int is a whole number, positive or negative without decimals of unlimited length
+example 
+x = 5
+y = -3
+print(x)
+print(y)
+
+
+# float
+float are numbers with decimal points
+example 
+x = 7.6
+y = -0.1
+print(x)
+print(y)
+
+
+# str
+str are sequence of characters, enclosed in quotes
+example 
+name = "vicky"
+print(name)
+
+#list
+list are ordered collections of items,enclosed in square brackets.
+example 
+fruits= ["apple", "banana", " cherry"]
+print(fruits)
+
+
+#tuples
+tuples are ordered, immutable collections of items, enclosed in parentheses.
+example 
+numbers= (1, 2, 3)
+print(numbers)
+
+
+
+# set
+set are unordered collections of unique items,enclosed in cury braces
+example 
+numbers = {3, 4, 1, 2}
+print(numbers)
+
+# string methods in python 
+# upper()
+example 
+mv_string = " Hello,world!"
+print(mv_string.upper())
+
+
+# lower
+example 
+mv_string = "HELLO,WORLD!"
+print(mv_string.lower())
+
+# Replace 
+example 
+mv_string = " Hello,World!"
+new_word = mv_string.replace("Universe", "World")
+print("Replaced:",new_word)
+
+
+# split()
+example 
+mv_string ="John, Kofi, Ama"
+print(mv_string.split(","))
+
+# join()
+example 
+mv_string = ['a', 'b', 'c']
+new_string = ''.join(mv_string)
+print(new_string)
+
+
+# find()
+example 
+mv_string = "Hello,World!"
+print(mv_string.find("World"))
