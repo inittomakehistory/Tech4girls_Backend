@@ -1,0 +1,12 @@
+Open vscode terminal 
+Make sure you have installed python 
+Type python3  or open the file editor, type in something then click on the play ▶️  button in the top right of the editor
+
+example 
+in the `python_interpreter.txt`,locate the text editor 
+type x=5
+y=3
+numbers= x + y
+print(numbers)
+
+tab on the ▶️ play button at the top right corner of the editor to run the command.
