@@ -1,0 +1,3 @@
+read(r) : 4
+write (w) : 2
+execute (x) : 1
