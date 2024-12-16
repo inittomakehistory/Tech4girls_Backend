@@ -1,6 +1,7 @@
 INTRODUCTION TO DATABASES AND SQL
 
 Project Overview
+
 This project focuses on database concepts and SQL commands. It consists of three questions that test understanding of database design and SQL scripting.
 1. Understand database concepts and SQL commands.
 2. Learn to design and create databases.
