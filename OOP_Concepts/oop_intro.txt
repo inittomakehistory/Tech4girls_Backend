@@ -1,0 +1,23 @@
+OOP
+
+Object-Oriented Programming (OOP) is a way of designing and organizing code that simulates real-world objects and systems.
+OOP makes it easier to design and develop complex software systems by providing a framework for organizing and structuring code
+
+The Four Main Principles of OOP:
+
+1. Encapsulation: Hides internal details and protects data.
+2. Abstraction: Shows only necessary information and reduces complexity.
+3. Inheritance: Allows code reuse by inheriting properties from other classes.
+4. Polymorphism: Enables objects of different classes to be treated as objects of a common superclass.
+
+Benefits of OOP in software development:
+
+1. Modularity: Makes code easier to maintain and update.
+2. Reusability: Saves time and effort by reusing code.
+3. Easier Troubleshooting: Helps identify and isolate issues more efficiently.
+
+Real-World Examples:
+
+1. Banking System: Uses OOP to model customers, accounts, and transactions.
+2. Vehicle Management: Uses OOP to represent vehicles, drivers, and routes.
+3.Online shopping platform:uese OOP to model products, customers, orders and payments, making it easier to manage and scale the platform
