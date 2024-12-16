@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS Courses (
   course_name VARCHAR(100) NOT NULL
 );
 
-SHOW DATABASES;
+SHOW TABLES;
 
 -- Create an intermediate table User_Courses
 CREATE TABLE IF NOT EXISTS User_Courses (
@@ -34,4 +34,3 @@ VALUES
   (2, 1),
   (2, 3),
   
-  SELECT * FROM User_Courses;
