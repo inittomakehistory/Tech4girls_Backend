@@ -33,4 +33,5 @@ question3.sql
 - `INSERT INTO User_Courses (user_id, course_id) VALUES (1, 1);`: Inserts a new row into the User_Courses table.
 
 AUTHOR
+
 VICTORIA 
