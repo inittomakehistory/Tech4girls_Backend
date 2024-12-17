@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitHub Homepage</title>
+    <link rel="icon" type="image/jpeg" href="{{ url_for('static', filename='img/fithub logo.jpg') }}">
+    <link rel="stylesheet" href="../static/homepage_style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+  <section class="main">
+    <div class="header">
+    <div class="main-logo">
+        <img src="../static/img/black-logo.jpeg" alt="Fithub logo" class="logo">
+    </div>
+    <nav class="nav-bar">
+        <ul>
+           <!--- <li><a href="#">Blog</a></li>-->
+            <li><a href="{{url_for("about")}}">Services</a></li>
+            <li><a href="{{url_for("about")}}">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="{{url_for('sign_in')}}">Sign In</a></li>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="main-info">
+        <h1>Take Your Fitness <br> To The Next Level</h1>
+        <a href="{{url_for("sign_up")}}"><button class="sign-up">JOIN US</button></a>
+
+    </div>
+    
+    
+  </section>
+    <section id="about">
+      <div class="about-section">
+      <div class="icon">
+      <a href="https://www.facebook.com/yourfacebookprofile" target="_blank">
+        <i class="bx bxl-facebook"></i>
+      </a>
+      <a href="https://www.twitter.com/yourtwitterprofile" target="_blank">
+        <i class="bx bxl-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/yourinstagramprofile" target="_blank">
+        <i class="bx bxl-instagram"></i>
+      </a>
+    </div>
+    </div>
+    </section>
+</body>
+</html>

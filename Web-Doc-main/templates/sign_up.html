@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image/jpeg" href="{{ url_for('static', filename='img/fithub logo.jpg') }}">
+    <link rel="icon" href="assets/fitnessIcon.png" type="assets/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../static/sign-up.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo1"><img src="../static/img/fithub logo.jpg" alt="FitHub logo" class="logo2"></div>
+        <h2>Sign Up</h2>
+        <form id="signupForm" action="/sign_up" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="dob">Date Of Birth</label>
+            <input type="date" id="dob" name="dob" required>
+
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password</label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" required>
+                <i class="fas fa-eye toggle-password" id="togglePassword"></i>
+            </div>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <div class="password-container">
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+                <i class="fas fa-eye toggle-password" id="toggleConfirmPassword"></i>
+            </div>
+
+            <a href="{{url_for('sign_in')}}"><button type="submit"><b>Sign Up</b></button></a>
+        </form>
+        <div class="terms">
+            By creating an account, you agree to our <a href="#">terms</a> and <a href="#">privacy policy</a>.
+        </div>
+        
+        <div class="login-link">
+            Already have an account? <a href="{{url_for('sign_in')}}">Login</a>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <!-- <script>
+        const form = document.getElementById('signup-form');
+
+
+form.addEventListener('submit', (e) => {
+  
+  e.preventDefault();
+
+  
+  const firstname = document.getElementById('First name').value.trim();
+  const lastname = document.getElementById('Last name').value.trim();
+  const email = document.getElementById('email').value.trim();
+  const password = document.getElementById('password').value.trim();
+  const confirmPassword = document.getElementById('confirmPassword').value.trim();
+
+ 
+  if (!validateFirstname(firstname)) {
+    alert('Invalid firstname');
+    return;
+  }
+
+  if (!validateLastname(lastname)) {
+    alert('Invalid lastname');
+    return;
+  }
+
+  if (!validateEmail(email)) {
+    alert('Invalid email');
+    return;
+  }
+
+  if (!validatePassword(password)) {
+    alert('Invalid password');
+    return;
+  }
+
+  if (!validateConfirmPassword(password, confirmPassword)) {
+    alert('Passwords do not match');
+    return;
+  }
+
+  
+  console.log('Form submitted successfully');
+  
+});
+
+        const togglePassword = document.getElementById('togglePassword');
+        const password = document.getElementById('password');
+        const toggleConfirmPassword = document.getElementById('toggleConfirmPassword');
+        const confirmPassword = document.getElementById('confirmPassword');
+
+        togglePassword.addEventListener('click', function() {
+            const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+            password.setAttribute('type', type);
+            this.classList.toggle('fa-eye');
+            this.classList.toggle('fa-eye-slash');
+        });
+
+        toggleConfirmPassword.addEventListener('click', function() {
+            const type = confirmPassword.getAttribute('type') === 'password' ? 'text' : 'password';
+            confirmPassword.setAttribute('type', type);
+            this.classList.toggle('fa-eye');
+            this.classList.toggle('fa-eye-slash');
+        });
+
+    </script> -->
+</body>
+</html>
