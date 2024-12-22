@@ -1,23 +1,23 @@
-INTRODUCTION TO DATABASES AND SQL
+## INTRODUCTION TO DATABASES AND SQL
 
-Project Overview
+## Project Overview
 
 This project focuses on database concepts and SQL commands. It consists of three questions that test understanding of database design and SQL scripting.
 1. Understand database concepts and SQL commands.
 2. Learn to design and create databases.
 3. Practice SQL scripting and data manipulation.
 
-PROJECT STRUCTURE 
+## PROJECT STRUCTURE 
 - question1.sql: Creates a database and a Users table.
 - question2.sql: Creates a Posts table and establishes a one-to-many relationship with Users.
 - question3.sql: Creates a Courses table and establishes a many-to-many relationship with Users.
 
-CONCEPTS DEMONSTRATED 
+## CONCEPTS DEMONSTRATED 
 - Creating databases and tables
 - Establishing relationships between tables
 - Inserting and manipulating data
 
-EXPLANATION OF COMMANDS USED 
+## EXPLANATION OF COMMANDS USED 
 
 question1.sql
 - CREATE DATABASE Tech4Girls_DB;`: Creates a new database named Tech4Girls_DB.
@@ -33,6 +33,6 @@ question3.sql
 - `CREATE TABLE User_Courses (user_id INT, course_id INT, FOREIGN KEY (user_id) REFERENCES Users(id), FOREIGN KEY (course_id) REFERENCES Courses(id));`: Creates a new table named User_Courses with the specified columns and establishes foreign key relationships with the Users and Courses tables.
 - `INSERT INTO User_Courses (user_id, course_id) VALUES (1, 1);`: Inserts a new row into the User_Courses table.
 
-AUTHOR
+## AUTHOR
 
 VICTORIA 
