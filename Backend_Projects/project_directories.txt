@@ -1,4 +1,0 @@
-in vscode ,type cd ..
-mkdir Backend_Projects
-cd Backend_Projects
-mkdir ProjectA ProjectB 
